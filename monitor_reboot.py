@@ -4,6 +4,8 @@ import sys
 import platform
 
 from ISStreamer.Streamer import Streamer
+from config import ACCESS_KEY
+
 
 # --------- User Settings ---------
 hostname = platform.node()
@@ -11,7 +13,6 @@ hostname = platform.node()
 # Initial State settings
 BUCKET_NAME = ":computer: " + hostname + " Processes"
 BUCKET_KEY = "pr1208"
-ACCESS_KEY = "A7sXZVULkQoZEtnuWSittldwgJe8PnBG"
 PROCESS_NAME = "Loader Controller"
 # Set the time to wait until you are sure reboot is complete and
 # network connections are restored (i.e. power outage)

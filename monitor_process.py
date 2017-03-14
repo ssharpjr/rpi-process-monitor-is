@@ -9,7 +9,7 @@ import platform
 
 from ISStreamer.Streamer import Streamer
 
-from config import BUCKET_KEY, ACCESS_KEY
+from config import ACCESS_KEY
 
 
 # --------- User Settings ---------
@@ -17,6 +17,7 @@ hostname = platform.node()
 
 # Initial State settings
 BUCKET_NAME = ":computer: TPI Loader Controllers"
+BUCKET_KEY = "pr1208"
 PROCESS_NAME = hostname
 # Set the time between checks
 MINUTES_BETWEEN_READS = 15
